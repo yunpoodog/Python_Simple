@@ -79,6 +79,18 @@ print(str.rfind("World"))   # 단어의 첫 글자 인덱스
 print("Hi" in "Hi Python")
 
 # Quiz
+#   "abc123@gmail.com"
+#   "ter@naver.com"
 id = "cherry1004@gmail.com"
+idx = id.find("@")
+val = id[:idx]
+print(val) #cherry1004 출력
 
-print(id[0:10]) #cherry1004 출력
+# Quiz
+#   "www.google.com"
+#   "www.daum.net"
+url = "www.naver.com"
+start = url.find(".") + 1
+end = url.rfind(".")
+val = url[start:end]
+print(val)  # 출력: google or daum or naver
