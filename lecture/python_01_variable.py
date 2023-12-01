@@ -44,7 +44,7 @@ print("Hello \tPython")
 # - JAVA: int num = 4;
 # - Python: num = 4(Type 지정 X)
 # - 코드가 실행될 때 자동으로 Type을 지정
-# - type() 함수: ()안의 값의 tyoe을 확인할 때 사용
+# - type() 함수: ()안의 값의 type을 확인할 때 사용
 print("=" * 200)
 print(type("ABC"))
 print(type(3.14))

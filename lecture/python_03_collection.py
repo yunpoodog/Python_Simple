@@ -145,13 +145,13 @@ print(dict_a)
 import pprint
 pprint.pprint(dict_a)   # 위에처럼 보기 쉽게 세로로 출력해줌
 
-# upgrade(): dict와 dict 병합
+# update(): dict와 dict 병합
 a = {"a": 1,
      "b": 2}
 b = {"b": 3,
      "c": 5}
 a.update(b)
-print(a)    # 병합시 중복key는 입력값(b)이 우선
+print(a)    # 병합시 중복 key는 입력값(b)이 우선
 
 # pop(key): dict 원소를 key를 통해 삭제
 abc = {"a": 1, "b": 2, "c": 3}
